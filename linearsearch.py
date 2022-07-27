@@ -1,4 +1,4 @@
-# Program to perform Binary Search
+# Program to perform Bubble sort
 
 def bsort(list):
     for i in range(0,len(list)-1):
