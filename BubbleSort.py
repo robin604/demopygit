@@ -6,8 +6,10 @@ def bsort(list):
                 temp = list[j]
                 list[j] = list[j+1]
                 list[j+1] = temp
-             
+
+#List for bubble sort operation                 
 list = [255,5,18,14,45,345,265]
 
 bsort(list)
+#print sorted list
 print(list)
