@@ -1,6 +1,6 @@
-# Program to perform Bubble sort
+# Program to perform Selection sort
 
-def bsort(list):
+def selsort(list):
     for i in range(0,len(list)-1):
         minpos = i
         for j in range(i, len(list)):
@@ -13,7 +13,7 @@ def bsort(list):
         
 #list of 5 numbers
 list = [255,5,18,14,45,345,265]
-bsort(list)
+selsort(list)
 
 #print list
 print(list)
