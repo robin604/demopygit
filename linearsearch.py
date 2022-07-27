@@ -15,5 +15,9 @@ def bsort(list):
 list = [255,5,18,14,45,345,265]
 
 bsort(list)
-#print
+
+#print list
+
 print(list)
+
+# Thank you for visiting
